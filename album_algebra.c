@@ -1,11 +1,6 @@
 #include <stdio.h>
 #include <math.h>
 
-const double[3] pov = [0.0, 0.0, 1.0]; //corresponds to where the camera is located
-
-/*
-*/
-
 typedef struct album_cover{
     //U00 - U22 are the orthonormal basis
     //U0 is points to right, U1 points to top, U2 is orthogonal
@@ -50,3 +45,6 @@ void lpi(double * p_line, double * p_plane, double * v, double * n){
 
 }
 
+int main(){
+    printf("Hello World");
+}
